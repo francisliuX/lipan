@@ -8,7 +8,7 @@ $('#page-size').val(pageSize).change(function(){
   loadProductByPage(1, $(this).val());
 });
 
-//分页条单击dfgdsfgdsfgsdfgdsfg事件处理
+//分页条单击dfgdsfgddfgdfgsfgsdfgdsfg事件处理
 $('#pagination').on('click', 'li a', function(e){
   e.preventDefault();
   loadProductByPage($(this).attr('href'), localStorage['pageSize']);
